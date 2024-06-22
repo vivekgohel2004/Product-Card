@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: border-box;
+  font-family: sans-serif;
+}
+
+#wrapper {
+  background-color: #f2ebe3;
+  height: 100%;
+  overflow-x: hidden;
+  padding: 7.62% 23%;
+}
+
+.container {
+  height: 400px;
+  width: 700px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+#left {
+  height: 400px;
+  width: 300px;
+  float: left;
+}
+
+#left img {
+  height: 100%;
+  width: 100%;
+}
+
+#right {
+  height: 400px;
+  width: 400px;
+  float: right;
+  background-color: white;
+}
+
+#right .info {
+  /* border: 2px solid black; */
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 30px;
+  letter-spacing: 1px;
+}
+
+p.coffee {
+  letter-spacing: 5px;
+}
+
+#currPrice {
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #35705a;
+}
+
+#btn {
+  font-family: Arial;
+  letter-spacing: 0.7px;
+  background-color: #35705a;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+  height: 12%;
+  width: 100%;
+}
+
+#btn img {
+  margin-right: 8%;
+}
+
+.lightFont {
+  color: #70768f;
+}
